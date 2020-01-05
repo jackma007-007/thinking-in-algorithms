@@ -1,2 +1,2 @@
-# data-struct-algorithm
+# algorithm
 数据结构与算法
