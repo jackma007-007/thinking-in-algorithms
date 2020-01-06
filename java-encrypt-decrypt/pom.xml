@@ -14,11 +14,11 @@
 
     <dependencies>
         <!-- 加密/解密 -->
-<!--        <dependency>-->
-<!--            <groupId>com.cloopen</groupId>-->
-<!--            <artifactId>CCPREST</artifactId>-->
-<!--            <version>${CCPREST.version}</version>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>com.cloopen</groupId>-->
+        <!--            <artifactId>CCPREST</artifactId>-->
+        <!--            <version>${CCPREST.version}</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk16</artifactId>

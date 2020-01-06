@@ -2,8 +2,8 @@ package com.lanhuigu.algorithm.linked;
 
 /**
  * 循环链表节点
+ *
  * @author yihonglei
- * @date 2018/11/7 20:59
  */
 public class LoopNode {
 

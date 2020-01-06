@@ -4,7 +4,6 @@ import java.util.Stack;
 
 /**
  * @author yihonglei
- * @date 2018/11/4 10:43
  */
 public class MyStack1 {
     private Stack<Integer> stackData;
@@ -18,7 +17,7 @@ public class MyStack1 {
     public void push(int newNum) {
         if (this.stackMin.isEmpty()) {
             this.stackMin.push(newNum);
-        } else if (newNum <= this.getMin()){
+        } else if (newNum <= this.getMin()) {
             this.stackMin.push(newNum);
         }
 
