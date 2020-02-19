@@ -20,12 +20,12 @@ public class PreCompile {
         }
         System.out.println("===================================");
         // 二人组
-        for (int first = 0; first < arr.length; first++) {
-            String one = arr[first];
-            for (int second = first + 1; second < arr.length; second++) {
-                String two = arr[second];
-                System.out.println("one=" + one + "two=" + two);
-            }
-        }
+//        for (int first = 0; first < arr.length; first++) {
+//            String one = arr[first];
+//            for (int second = first + 1; second < arr.length; second++) {
+//                String two = arr[second];
+//                System.out.println("one=" + one + "two=" + two);
+//            }
+//        }
     }
 }
