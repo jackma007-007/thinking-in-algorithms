@@ -8,7 +8,6 @@ import java.util.Arrays;
  * @author yihonglei
  */
 public class InsertSort {
-
     public static void main(String[] args) {
         int[] arr = {3, 1, 4, 5, 2, 8};
         System.out.println("排序前数组：" + Arrays.toString(arr));
@@ -21,8 +20,6 @@ public class InsertSort {
 
     /**
      * 插入排序算法
-     *
-     * @author yihonglei
      */
     public static void insertSort(int[] arr) {
         // 遍历所有的数字
