@@ -1,9 +1,9 @@
-package com.jpeony.algorithm.sort;
+package com.jpeony.algorithm.sorts;
 
 import java.util.Arrays;
 
 /**
- * 冒泡排序算法
+ * 冒泡排序算法。
  *
  * @author yihonglei
  */
@@ -11,9 +11,6 @@ public class BubbleSort {
 
     /**
      * 冒泡排序算法
-     *
-     * @param arr 将要排序的数组
-     * @author yihonglei
      */
     public static void bubbleSort(int[] arr) {
         // 控制需要比较多少轮，取出的元素跟后续元素比较
@@ -32,19 +29,15 @@ public class BubbleSort {
         }
     }
 
-    // Test
     public static void main(String[] args) {
         // 创建数组
         int[] arr = {2, 5, 4, 1, 3};
-
         // 排序前的数组
-        System.out.println("@@@@@@排序前的数组：" + Arrays.toString(arr));
-
+        System.out.println("排序前的数组：" + Arrays.toString(arr));
         // 排序算法
         bubbleSort(arr);
-
         // 排序后的数组
-        System.out.println("@@@@@@排序后的数组：" + Arrays.toString(arr));
-
+        System.out.println("排序后的数组：" + Arrays.toString(arr));
     }
+    
 }

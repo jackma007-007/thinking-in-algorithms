@@ -1,23 +1,13 @@
-package com.jpeony.algorithm.sort;
+package com.jpeony.algorithm.sorts;
 
 import java.util.Arrays;
 
 /**
- * 插入排序算法
+ * 插入排序算法。
  *
  * @author yihonglei
  */
 public class InsertSort {
-    public static void main(String[] args) {
-        int[] arr = {3, 1, 4, 5, 2, 8};
-        System.out.println("排序前数组：" + Arrays.toString(arr));
-
-        insertSort(arr);
-
-        System.out.println("排序后数组：" + Arrays.toString(arr));
-
-    }
-
     /**
      * 插入排序算法
      */
@@ -38,6 +28,13 @@ public class InsertSort {
                 arr[j + 1] = tmp;
             }
         }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {3, 1, 4, 5, 2, 8};
+        System.out.println("排序前数组：" + Arrays.toString(arr));
+        insertSort(arr);
+        System.out.println("排序后数组：" + Arrays.toString(arr));
     }
 
 }
