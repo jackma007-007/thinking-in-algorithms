@@ -37,7 +37,6 @@ public class MyArray {
         elements = newArr;
     }
 
-    // Test
     public static void main(String[] args) {
         MyArray myArray = new MyArray();
 
