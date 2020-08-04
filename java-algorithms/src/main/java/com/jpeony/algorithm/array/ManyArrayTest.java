@@ -1,4 +1,4 @@
-package com.jpeony.algorithm.arr;
+package com.jpeony.algorithm.array;
 
 /**
  * 多维数组，创建方式与一维数组一样，也即数组里面套数组。

@@ -1,4 +1,4 @@
-package com.jpeony.algorithm.arr;
+package com.jpeony.algorithm.array;
 
 /**
  * 写一个存int的数组
