@@ -1,7 +1,5 @@
 package com.jpeony.algorithm.linked;
 
-import com.alibaba.fastjson.JSON;
-
 /**
  * 单链表的插入、删除、查找操作，链表内存int类型数据；
  *
@@ -134,17 +132,21 @@ public class SingleLinkedList {
     public static void main(String[] args) {
         SingleLinkedList singleLinkedList = new SingleLinkedList();
 
+        System.out.println("==addFirst==");
         singleLinkedList.addFirst(1);
-        System.out.println("==addFirstAfter==");
         singleLinkedList.printAll();
 
+        System.out.println("==addLast==");
         singleLinkedList.addLast(2);
         singleLinkedList.addLast(3);
-        System.out.println("==addLastAfter==");
         singleLinkedList.printAll();
 
+        System.out.println("==getByValue:" + (1 == singleLinkedList.getByValue(1).data));
+
+        System.out.println("==getByIndex:" + singleLinkedList.getByIndex(0).data);
+
+        System.out.println("==remove==");
         singleLinkedList.remove(2);
-        System.out.println("==removeAfter==");
         singleLinkedList.printAll();
     }
 
