@@ -10,6 +10,7 @@ public class MyArray {
      * 声明一个int数组，默认值都是0
      */
     private int[] elements;
+
     /**
      * 数组元素个数
      */
