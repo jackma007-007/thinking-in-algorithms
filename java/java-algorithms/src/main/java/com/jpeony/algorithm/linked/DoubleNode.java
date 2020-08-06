@@ -6,14 +6,20 @@ package com.jpeony.algorithm.linked;
  * @author yihonglei
  */
 public class DoubleNode {
-    // 上一个节点
-    DoubleNode pre = this;
+    /**
+     * 上一个节点
+     */
+    private DoubleNode pre = this;
 
-    // 下一个节点
-    DoubleNode next = this;
+    /**
+     * 下一个节点
+     */
+    private DoubleNode next = this;
 
-    // 节点数据
-    int data;
+    /**
+     * 节点数据
+     */
+    private int data;
 
     /**
      * 构造方法
@@ -59,7 +65,6 @@ public class DoubleNode {
         return data;
     }
 
-    // 测试
     public static void main(String[] args) {
         // 创建节点
         DoubleNode n1 = new DoubleNode(1);

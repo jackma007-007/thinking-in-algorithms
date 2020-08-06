@@ -1,19 +1,25 @@
 package com.jpeony.algorithm.linked;
 
 /**
- * 一个节点
+ * 单链表
  *
  * @author yihonglei
  */
 public class Node {
 
-    // 节点内容
-    int data;
+    /**
+     * 节点内容
+     */
+    private int data;
 
-    // 下一个节点
+    /**
+     * 下一个节点
+     */
     Node next;
 
-    // 构造器
+    /**
+     * 构造器
+     */
     public Node(int data) {
         this.data = data;
     }
@@ -110,7 +116,6 @@ public class Node {
         }
     }
 
-    // Test
     public static void main(String[] args) {
         // 创建节点
         Node n1 = new Node(1);

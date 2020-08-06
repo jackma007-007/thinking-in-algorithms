@@ -7,13 +7,19 @@ package com.jpeony.algorithm.linked;
  */
 public class LoopNode {
 
-    // 节点内容
+    /**
+     * 节点内容
+     */
     int data;
 
-    // 下一个节点
+    /**
+     * 下一个节点
+     */
     LoopNode next = this;
 
-    // 构造器
+    /**
+     * 构造器
+     */
     public LoopNode(int data) {
         this.data = data;
     }
@@ -57,7 +63,6 @@ public class LoopNode {
         this.next = newNext;
     }
 
-    // Test
     public static void main(String[] args) {
         // 创建节点
         LoopNode n1 = new LoopNode(1);

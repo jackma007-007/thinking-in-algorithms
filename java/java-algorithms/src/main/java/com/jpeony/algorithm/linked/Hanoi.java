@@ -6,10 +6,6 @@ package com.jpeony.algorithm.linked;
  * @author yihonglei
  */
 public class Hanoi {
-    public static void main(String[] args) {
-        hanoi(2, "A", "B", "C");
-    }
-
     /**
      * 汉诺塔问题
      *
@@ -17,7 +13,6 @@ public class Hanoi {
      * @param from 启始柱子
      * @param in   中间柱子
      * @param to   目标柱子
-     * @author yihonglei
      */
     public static void hanoi(int n, String from, String in, String to) {
         // 只有一个盘子
@@ -32,5 +27,9 @@ public class Hanoi {
             // 把上面的所有盘子从中间位置移到目标位置
             hanoi(n - 1, in, from, to);
         }
+    }
+
+    public static void main(String[] args) {
+        hanoi(2, "A", "B", "C");
     }
 }

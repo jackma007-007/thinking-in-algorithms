@@ -6,7 +6,6 @@ package com.jpeony.algorithm.linked;
  * @author yihonglei
  */
 public class Fibonacci {
-
     /**
      * 打印斐波那契数列第N项值
      */
@@ -20,7 +19,6 @@ public class Fibonacci {
         }
     }
 
-    // 测试
     public static void main(String[] args) {
         System.out.println(fabonacci(6));
     }
