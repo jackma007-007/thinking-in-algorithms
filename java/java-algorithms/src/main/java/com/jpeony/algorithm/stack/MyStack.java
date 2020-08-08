@@ -1,15 +1,19 @@
 package com.jpeony.algorithm.stack;
 
 /**
- * 基于数组实现栈
+ * 基于数组实现存储int类型的栈
  *
  * @author yihonglei
  */
 public class MyStack {
-    // 基于数组实现栈
+    /**
+     * 定义一个数组
+     */
     int[] elements;
 
-    // 构造器，指定数组初始大小为0
+    /**
+     * 构造器，指定数组初始大小为0
+     */
     public MyStack() {
         elements = new int[0];
     }
@@ -79,7 +83,6 @@ public class MyStack {
         return elements.length == 0;
     }
 
-    // 测试栈
     public static void main(String[] args) {
         // 创建一个栈
         MyStack myStack = new MyStack();
@@ -89,15 +92,9 @@ public class MyStack {
         myStack.push(2);
         myStack.push(3);
 
-        // 打印栈顶元素
-        System.out.println(myStack.peek());
-
         // 取出栈顶元素
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
         System.out.println(myStack.pop());
-
-        // 判断栈是否为空
-        System.out.println(myStack.isEmpty());
     }
 }
