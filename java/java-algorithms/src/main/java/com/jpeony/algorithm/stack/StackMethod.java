@@ -7,7 +7,7 @@ import java.util.Stack;
  *
  * @author yihonglei
  */
-public class StackMethodTest {
+public class StackMethod {
     public static void main(String[] args) {
         Stack<String> staffs = new Stack<String>();
         // 入栈顺序: a,b,c,d,e

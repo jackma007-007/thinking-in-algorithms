@@ -7,7 +7,7 @@ import java.util.Stack;
  *
  * @author yihonglei
  */
-public class StackTest {
+public class JavaStack {
     public static void main(String[] args) {
         Stack<String> staffs = new Stack<>();
 
