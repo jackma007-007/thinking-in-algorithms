@@ -6,5 +6,7 @@
 
 [链表](https://jpeony.blog.csdn.net/article/details/83856317)
 
+[栈](https://jpeony.blog.csdn.net/article/details/53418330)
+
 # 题库
 
