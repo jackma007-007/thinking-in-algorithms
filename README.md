@@ -8,5 +8,7 @@
 
 [栈](https://jpeony.blog.csdn.net/article/details/53418330)
 
+[队列](https://jpeony.blog.csdn.net/article/details/83824928)
+
 # 题库
 
