@@ -7,18 +7,20 @@ package com.jpeony.algorithm.queue;
  */
 public class MyQueue {
 
-    // 创建数组
+    /**
+     * 创建数组
+     */
     int[] elements;
 
-    // 构造方法
+    /**
+     * 构造方法
+     */
     public MyQueue() {
         elements = new int[0];
     }
 
     /**
      * 入队：在队尾插入一个元素
-     *
-     * @param element
      */
     public void add(int element) {
         // 定义一个新数组，长度加1
@@ -66,8 +68,6 @@ public class MyQueue {
 
     /**
      * 判断队列是否为空
-     *
-     * @return boolean
      */
     public boolean isEmpty() {
         return elements.length == 0;
@@ -75,8 +75,6 @@ public class MyQueue {
 
     /**
      * 查看队头元素
-     *
-     * @return int
      */
     public int peek() {
         // 判断队列是否为空
@@ -87,7 +85,6 @@ public class MyQueue {
         return elements[0];
     }
 
-    // Test
     public static void main(String[] args) {
         // 创建队列
         MyQueue mq = new MyQueue();
@@ -97,15 +94,10 @@ public class MyQueue {
         mq.add(2);
         mq.add(3);
 
-        // 查看队头元素
-        System.out.println("队头元素：" + mq.peek());
-
         // 出队
         System.out.println("出队：" + mq.poll());
         System.out.println("出队：" + mq.poll());
-
-        // 判断队列是否为空
-        System.out.println("是否为空：" + mq.isEmpty());
+        System.out.println("出队：" + mq.poll());
     }
 
 }
