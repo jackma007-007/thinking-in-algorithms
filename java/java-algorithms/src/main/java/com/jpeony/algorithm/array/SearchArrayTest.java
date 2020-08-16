@@ -5,7 +5,7 @@ package com.jpeony.algorithm.array;
  *
  * @author yihonglei
  */
-public class SearchArrTest {
+public class SearchArrayTest {
 
     public static void main(String[] args) {
         // 定义数组
