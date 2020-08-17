@@ -12,7 +12,7 @@ public class MyArray {
     private int[] elements;
 
     /**
-     * 数组元素个数
+     * 数组容量
      */
     private int capacity;
 
