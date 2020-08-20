@@ -26,6 +26,8 @@
 
 [线性查找算法](https://jpeony.blog.csdn.net/article/details/83743273)
 
+[LRU（缓存淘汰）算法](https://blog.csdn.net/yhl_jxy/article/details/108117414)
+
 # 题库
 
 [leetcode刷题](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/java-algorithms/src/main/java/com/jpeony/algorithm/leetcode)
