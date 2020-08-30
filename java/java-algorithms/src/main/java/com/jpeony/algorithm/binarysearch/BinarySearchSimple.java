@@ -32,8 +32,6 @@ public class BinarySearchSimple {
                     // 如果中间元素小于目标元素，则目标元素在右半段，low = mid + 1
                     low = mid + 1;
                 }
-
-                mid = (low + high) / 2;
             }
         }
 
