@@ -35,6 +35,6 @@ public class BinarySearchSimple {
             }
         }
 
-        System.out.println("index = " + index);
+        System.out.println("target-index=" + index);
     }
 }
