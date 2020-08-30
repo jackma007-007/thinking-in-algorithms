@@ -16,10 +16,10 @@ public class BinarySearchSimple {
         int low = 0;
         // 高位
         int high = arr.length - 1;
-        // 中间位
-        int mid = (low + high) / 2;
 
         while (true) {
+            // 中位
+            int mid = (low + high) / 2;
             // 查找到目标元素，中间位置为目标元素
             if (arr[mid] == target) {
                 index = mid;
