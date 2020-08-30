@@ -1,4 +1,4 @@
-package com.jpeony.algorithm.array;
+package com.jpeony.algorithm.binarysearch;
 
 /**
  * 简单二分查找算法。
