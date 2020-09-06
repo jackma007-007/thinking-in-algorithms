@@ -5,7 +5,7 @@ package com.jpeony.algorithm.leetcode;
  *
  * @author yihonglei
  */
-public class TwoAdd {
+public class AddTwoNumbers {
 
     /**
      * Definition for singly-linked list.
