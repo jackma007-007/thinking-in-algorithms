@@ -17,6 +17,7 @@ public class ValidParentheses {
         if (s.length() % 2 == 1) {
             return false;
         }
+
         // 符号栈
         Stack<Character> cStack = new Stack<>();
         // 左符号容器
