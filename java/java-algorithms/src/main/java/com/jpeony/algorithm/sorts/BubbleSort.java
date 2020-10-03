@@ -3,7 +3,7 @@ package com.jpeony.algorithm.sorts;
 import java.util.Arrays;
 
 /**
- * 冒泡排序算法。
+ * 冒泡排序
  *
  * @author yihonglei
  */
@@ -39,5 +39,5 @@ public class BubbleSort {
         // 排序后的数组
         System.out.println("排序后的数组：" + Arrays.toString(arr));
     }
-    
+
 }

@@ -3,7 +3,7 @@ package com.jpeony.algorithm.sorts;
 import java.util.Arrays;
 
 /**
- * 快速排序算法。
+ * 快速排序
  *
  * @author yihonglei
  */
