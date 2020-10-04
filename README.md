@@ -51,8 +51,3 @@
 哈希算法
 
 字符串匹配
-
-# 题库
-
-[leetcode刷题](https://github.com/yihonglei/thinking-in-algorithms/tree/master/java/java-algorithms/src/main/java/com/jpeony/algorithm/leetcode)
-
