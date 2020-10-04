@@ -1,10 +1,10 @@
 package com.jpeony.algorithm.sorts;
 
 /**
- * 插入排序
+ * 计数排序
  *
  * @author yihonglei
  */
-public class InsertSort {
+public class CountingSort {
 
 }

@@ -1,10 +1,10 @@
 package com.jpeony.algorithm.sorts;
 
 /**
- * 插入排序
+ * 桶排序
  *
  * @author yihonglei
  */
-public class InsertSort {
+public class BucketSort {
 
 }
