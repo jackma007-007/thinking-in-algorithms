@@ -1,7 +1,7 @@
 package com.jpeony.algorithm.linked;
 
 /**
- * 单链表的插入、删除、查找操作，链表内存int类型数据；
+ * 单链表的插入、删除、查找操作，链表内存int类型数据
  *
  * @author yihonglei
  */
